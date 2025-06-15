@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>📸 My Image Gallery</h1>
+
+    <div class="filter-buttons">
+      <button data-filter="all">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="travel">Travel</button>
+      <button data-filter="food">Food</button>
+    </div>
+
+    <div class="gallery">
+      <div class="image nature">
+        <img src="photo/IMG_20241031_182654.jpg" alt="Nature 1" />
+      </div>
+      <div class="image travel">
+        <img src="photo/IMG_20241103_181812.jpg" alt="Travel 1" />
+      </div>
+      <div class="image food">
+        <img src="photo/IMG_20241204_184022.jpg" alt="Food 1" />
+      </div>
+      <div class="image nature">
+        <img src="photo/IMG_20241205_163416.jpg" alt="Nature 2" />
+      </div>
+      <div class="image travel">
+        <img src="photo/IMG_20241213_065129.jpg" alt="Travel 2" />
+      </div>
+      <div class="image food">
+        <img src="photo/IMG-20240803-WA0109.jpg" alt="Food 2" />
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modal-img" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
